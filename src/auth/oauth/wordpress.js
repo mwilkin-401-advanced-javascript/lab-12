@@ -18,10 +18,10 @@ let authorize = (request) => {
   return superagent.post(WPTS)
     .type('form')
     .send({
-      code: request.query.code,
-      client_id: process.env.GOOGLE_CLIENT_ID,
-      client_secret: process.env.GOOGLE_CLIENT_SECRET,
+      client_id: process.env.WORDPRESS_CLIENT_ID,
       redirect_uri: `${API}/oauth`,
+      client_secret: process.env.WORDPRESS_CLIENT_SECRET,
+      code: request.query.code,
       grant_type: 'authorization_code',
     })
     .then( response => {
