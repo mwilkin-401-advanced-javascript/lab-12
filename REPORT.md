@@ -5,8 +5,9 @@
 ### Research Conducted By: Student Names
 
 ### Overall Score and Comments
-#### Score (Out of 10): 7
+#### Score (Out of 10): 10
 #### General Comments
+
 Describe the stack (front-end only? full stack?), database, efficiency, etc. Describe the general usability and learnability
 
 #### Pros

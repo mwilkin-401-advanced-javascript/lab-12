@@ -25,16 +25,19 @@ let authorize = (request) => {
       grant_type: 'authorization_code',
     })
     .then( response => {
+      console.log(response.body.blog_url);
       let access_token = response.body.access_token;
       console.log('(2)', access_token);
       return access_token;
     })
     .then(token => {
       console.log(SERVICE, token);
-      return superagent.get(SERVICE)
+      // return superagent.post(`https://jefefood.wordpress.com?oauth=me&access_token=${token}`)
+      return superagent.get('https://public-api.wordpress.com/rest/v1/me/')
         .set('Authorization', `Bearer ${token}`)
         .then( response => {
           let user = response.body;
+          console.log(response);
           console.log('(3)', user);
           return user;
         });
