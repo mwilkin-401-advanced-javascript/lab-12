@@ -3,14 +3,17 @@ OAuth
 # project-scaffold
 Scaffold for lab projects for 401
 
-[![Build Status](https://www.travis-ci.com/mwilkin-401-advanced-javascript/lab-04.svg?branch=master)](https://www.travis-ci.com/mwilkin-401-advanced-javascript/lab-04)
+[![Build Status](https://www.travis-ci.com/mwilkin-401-advanced-javascript/lab-04.svg?branch=master)](https://www.travis-ci.com/mwilkin-401-advanced-javascript/lab-12)
 
 ### Author: Matt Wilkin & Jeff Lawrence
 
 ### Links and Resources
-[submission PR](https://github.com/mwilkin-401-advanced-javascript/lab-04/pull/4)
 
-[travis](https://www.travis-ci.com/mwilkin-401-advanced-javascript/lab-04)
+[Submission PR](https://github.com/mwilkin-401-advanced-javascript/lab-12/pull/1)
+
+[Travis](https://www.travis-ci.com/mwilkin-401-advanced-javascript/lab-12)
+
+[Heroku]()
 
 ### Documentation
 
